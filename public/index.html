@@ -18,11 +18,10 @@ function getCookie(cname) {
 function checkCookie() {
   var user=getCookie("username");
   if (user != "") {
-    document.write( '<!DOCTYPE html>\n' );
 document.write( '<html lang=\'en\' class=\'dark-theme\'>\n' );
 document.write( '    <title>HyperTabs</title>\n' );
 document.write( '<head>\n' );
-document.write( '  <script>document.alloyLocation = \'test\'</script>\n' );
+document.alloyLocation = 'test'
 document.write( '  <meta charset=\'utf-8\'>\n' );
 document.write( '  <meta http-equiv=\'X-UA-Compatible\' content=\'IE=edge,chrome=1\'>\n' );
 document.write( '  <meta name=\'viewport\' content=\'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\'>\n' );
@@ -127,10 +126,10 @@ document.write( '        <a class=\"pointer\" onclick=\'toggleId(\"extensiondrop
 document.write( '        <a>Coming soon?</a>\n' );
 document.write( '      </div>\n' );
 document.write( '    </div>\n' );
-document.write( '    <script src=\'https://unpkg.com/draggabilly@2.2.0/dist/draggabilly.pkgd.min.js\'></script>\n' );
-document.write( '    <script src=\'js/chrome-tabs.js\'></script>\n' );
-document.write( '    <script src=\'js/js.js\'></script>\n' );
-document.write( '    <script>document.cookie = \"oldsmobile=badcar\"</script>\n' );
+src= 'https://unpkg.com/draggabilly@2.2.0/dist/draggabilly.pkgd.min.js';
+src= 'js/chrome-tabs.js';
+src= 'js/js.js';
+document.cookie = "oldsmobile=badcar";
 document.write( '  </div>\n' );
 document.write( '\n' );
 document.write( '\n' );
